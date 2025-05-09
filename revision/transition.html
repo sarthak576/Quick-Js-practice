@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trasition.org</title>
+</head>
+<body>
+    <style>
+        .continer{
+            background-color: green;
+            display: flex;
+
+        }
+        .square1{
+           background-color: rgb(230, 215, 215);
+           transform: rotate(45deg);
+        }
+        .square2{
+            transform: skew(10);
+            background-color: blue;
+        }
+        .square3{
+            transform: scale(1.5);
+
+            background-color: rgb(79, 194, 36);
+        }.square4{
+            transform: translate(0);
+            background-color: rgb(195, 42, 212);
+        }
+        .square1,.square2,.square3,.square4{
+margin: 20px;
+padding: 5px;
+        }
+    </style>
+    <div class="continer">
+        <div class="square1">rotate</div>
+        <div class="square2">skew</div>
+        <div class="square3">scale</div>
+        <div class="square4">translate</div>
+
+    </div>
+</body>
+</html>
